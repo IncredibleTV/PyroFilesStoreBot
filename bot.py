@@ -68,8 +68,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TB_zone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TB_zone")
+                        InlineKeyboardButton("Support Group", url="https://t.me/MineOfMovies_Chat"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/mineofmovies")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -118,7 +118,7 @@ async def main(bot, message):
             else:
                 pass
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/TB_zone)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/MineOfMovies_Chat)",
                                      disable_web_page_preview=True)
             return
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -136,8 +136,8 @@ async def main(bot, message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Bots Channel", url="https://t.me/TB_zone"),
-                      InlineKeyboardButton("Support Group", url="https://t.me/TB_zone")]]
+                     [InlineKeyboardButton("Bots Channel", url="https://t.me/mineofmovies"),
+                      InlineKeyboardButton("Support Group", url="https://t.me/MineOfMovies_Chat")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -331,8 +331,8 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TB_zone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TB_zone")
+                        InlineKeyboardButton("Support Group", url="https://t.me/mineofmovies"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/MineOfMovies_Chat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -371,7 +371,7 @@ async def button(bot, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TB_zone).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/mineofmovies).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -383,8 +383,8 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/TB_zone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/TB_zone")
+                        InlineKeyboardButton("Support Group", url="https://t.me/mineofmovies"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/MineOfMovies_Chat")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
