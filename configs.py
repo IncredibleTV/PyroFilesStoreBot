@@ -32,9 +32,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @kenilpatel
 
-👥 **Support Group:** [Streamflix](https://t.me/TB_zone)
+👥 **Support Group:** [Mine Of Movies Chat](https://t.me/MineOfMovies_Chat)
 
-📢 **Updates Channel:** [Streamflix](https://t.me/TB_zone)
+📢 **Updates Channel:** [Mine Of Movies](https://t.me/@mineofmovies)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @kenilpatel
